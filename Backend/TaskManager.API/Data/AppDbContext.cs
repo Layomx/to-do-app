@@ -13,7 +13,7 @@ public class AppDbContext : DbContext
     protected override void OnModelCreating(ModelBuilder modelBuilder)
     {
         // test: llamada primero a la configuracion base
-        base.OnModeCreating(modelBuilder);
+        base.OnModelCreating(modelBuilder);
 
         modelBuilder.Entity<User>(entity =>
         {
