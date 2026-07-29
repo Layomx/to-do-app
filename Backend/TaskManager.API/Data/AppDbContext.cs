@@ -12,6 +12,9 @@ public class AppDbContext : DbContext
 
     protected override void OnModelCreating(ModelBuilder modelBuilder)
     {
+        // test: llamada primero a la configuracion base
+        base.OnModeCreating(modelBuilder);
+
         modelBuilder.Entity<User>(entity =>
         {
             entity.HasIndex(u => u.Username).IsUnique(); // No se pueden repetir usuarios
@@ -21,15 +24,14 @@ public class AppDbContext : DbContext
 
         modelBuilder.Entity<TaskItem>(entity =>
         {
-            entity.Property(t => t.Tile).IsRequired().HasMaxLength(200);
+            entity.Property(t => t.Title).IsRequired().HasMaxLength(200);
             entity.HasOne(t => t.User)
                   .WithMany(u => u.Tasks)
                   .HasForeignKey(t => t.UserId)
-                  .OnDelete(DeleteBehavior.Cascada); // borrar el usuario borra sus tareas
-
-            entity.HasINdex(t => new { t.UserId, t.IsCompleted });
+                  .OnDelete(DeleteBehavior.Cascade); // borrar el usuario borra sus tareas
+            
+            // indice compuesto para optimizacion de filtros de busqueda
+            entity.HasIndex(t => new { t.UserId, t.IsCompleted });
         });
-
-        base.OnModelCreating(modelBuilder);
     }
 }
