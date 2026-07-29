@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "BW/6J2wZBnc=",
+  "dgSpecHash": "m0cH33JlPHM=",
   "success": true,
   "projectFilePath": "/home/layomx/proyectos_linux/tasks/Backend/TaskManager.API/TaskManager.API.csproj",
   "expectedPackageFiles": [
+    "/home/layomx/.nuget/packages/bcrypt.net-next/4.2.0/bcrypt.net-next.4.2.0.nupkg.sha512",
     "/home/layomx/.nuget/packages/humanizer.core/2.14.1/humanizer.core.2.14.1.nupkg.sha512",
     "/home/layomx/.nuget/packages/microsoft.aspnetcore.authentication.jwtbearer/10.0.10/microsoft.aspnetcore.authentication.jwtbearer.10.0.10.nupkg.sha512",
     "/home/layomx/.nuget/packages/microsoft.aspnetcore.openapi/10.0.10/microsoft.aspnetcore.openapi.10.0.10.nupkg.sha512",
