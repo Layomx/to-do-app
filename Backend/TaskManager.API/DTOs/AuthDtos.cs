@@ -1,4 +1,4 @@
-namespace TaskManager.Api.DTOs;
+namespace TaskManager.API.DTOs;
 
 public record RegisterDto(string Username, string Password);
 

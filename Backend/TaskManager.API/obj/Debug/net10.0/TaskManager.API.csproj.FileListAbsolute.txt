@@ -121,3 +121,13 @@
 /home/layomx/proyectos_linux/tasks/Backend/TaskManager.API/obj/Debug/net10.0/TaskManager.API.pdb
 /home/layomx/proyectos_linux/tasks/Backend/TaskManager.API/obj/Debug/net10.0/TaskManager.API.genruntimeconfig.cache
 /home/layomx/proyectos_linux/tasks/Backend/TaskManager.API/obj/Debug/net10.0/ref/TaskManager.API.dll
+/home/layomx/proyectos_linux/tasks/Backend/TaskManager.API/bin/Debug/net10.0/BCrypt-Net-Next.dll
+/home/layomx/proyectos_linux/tasks/Backend/TaskManager.API/bin/Debug/net10.0/Microsoft.AspNetCore.Authentication.JwtBearer.dll
+/home/layomx/proyectos_linux/tasks/Backend/TaskManager.API/bin/Debug/net10.0/Microsoft.Bcl.Cryptography.dll
+/home/layomx/proyectos_linux/tasks/Backend/TaskManager.API/bin/Debug/net10.0/Microsoft.IdentityModel.Abstractions.dll
+/home/layomx/proyectos_linux/tasks/Backend/TaskManager.API/bin/Debug/net10.0/Microsoft.IdentityModel.JsonWebTokens.dll
+/home/layomx/proyectos_linux/tasks/Backend/TaskManager.API/bin/Debug/net10.0/Microsoft.IdentityModel.Logging.dll
+/home/layomx/proyectos_linux/tasks/Backend/TaskManager.API/bin/Debug/net10.0/Microsoft.IdentityModel.Protocols.dll
+/home/layomx/proyectos_linux/tasks/Backend/TaskManager.API/bin/Debug/net10.0/Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+/home/layomx/proyectos_linux/tasks/Backend/TaskManager.API/bin/Debug/net10.0/Microsoft.IdentityModel.Tokens.dll
+/home/layomx/proyectos_linux/tasks/Backend/TaskManager.API/bin/Debug/net10.0/System.IdentityModel.Tokens.Jwt.dll
