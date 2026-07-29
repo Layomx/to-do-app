@@ -33,12 +33,12 @@ public class ExceptionMiddleware
     {
         var statusCode = exception switch
         {
-            NotFoundException => HttpStatusCode.NotFound,
-            ForbiddenException => HttpStatusCode.Forbidden,
-            ConflictException => HttpStatusCode.Conflict,
-            BadRequestException => HttpStatusCode.BadRequest,
-            UnauthorizedAppException => HttpStatusCode.Unauthorized,
-            _ => HttpStatusCode.InternalServerError
+            NotFoundException => HttpStatusCode.NotFound,   // 404
+            ForbiddenException => HttpStatusCode.Forbidden, // 403
+            ConflictException => HttpStatusCode.Conflict,   // 409
+            BadRequestException => HttpStatusCode.BadRequest,   // 400
+            UnauthorizedAppException => HttpStatusCode.Unauthorized,  // 401
+            _ => HttpStatusCode.InternalServerError   // 500
         };
 
         if (statusCode == HttpStatusCode.InternalServerError)
