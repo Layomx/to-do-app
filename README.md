@@ -8,12 +8,12 @@ Hasta el momento el Backend en C# ha sido terminado y puede ser probado en disti
 Tecnologías Principales
 - Backend: C#, .NET 10, Entity Framework Core, PostgreSQL, Autenticación JWT (JSON Web Tokens).
 - Base de Datos: PostgreSQL (ejecutándose mediante un contenedor aislado en Docker).
-- Arquitectura: Diseño en capas con middleware global de manejo de excepciones y migraciones automatizadas al arranqu
+- Arquitectura: Diseño en capas con middleware global de manejo de excepciones y migraciones automatizadas al arranque
 
 ## Guia de inicio rapida
 ### 1. Clonar el repositorio
 ```bash
-git clone [https://github.com/Layomx/to-do-app.git](https://github.com/Layomx/to-do-app.git)
+git clone git@github.com:Layomx/to-do-app.git
 cd to-do-app/Backend/TaskManager.API
 ```
 ### 2. Levantar base de datos con Docker
