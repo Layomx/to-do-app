@@ -2,7 +2,7 @@
 
 Aplicacion de Task Manager sencilla con Backend escrito en C# y Frontend planeado para realizarse con React.
 
-Hasta el momento el Backend en C# ha sido terminado y puede ser probado en distitnas computadoras a traves de comandos en terminal, la forma mas facil de utilizarlo puede ser configurando un servidor en Postgre Local o utilizando Docker, el Backend realiza migraciones automaticas asi que se ahorran algunos comandos extra en la terminal.
+Hasta el momento el Backend en C# ha sido terminado y puede ser probado en distitntas computadoras (principalmente equipadas con Linux) a traves de comandos en terminal, la forma mas facil de utilizarlo puede ser configurando un servidor en Postgre Local o utilizando Docker, el Backend realiza migraciones automaticas asi que se ahorran algunos comandos extra en la terminal.
 
 ## Arquitectura
 Tecnologías Principales
